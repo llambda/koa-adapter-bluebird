@@ -28,7 +28,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "co": "^4.6.0",
+    "bluebird": "^3.1.1",
+    "bluebird-co": "^2.1.1",
     "is-generator-function": "^1.0.3"
   },
   "devDependencies": {

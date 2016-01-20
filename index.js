@@ -1,7 +1,7 @@
 "use strict"
 
+const wrap = require('bluebird-co').wrap
 const isgen = require("is-generator-function")
-const wrap = require("co").wrap
 const curry = Function.bind.bind(Function.call)
 
 module.exports = adapt
@@ -24,7 +24,6 @@ function adapt(middleware) {
   }
 }
 
-  
 function Adapter(Koa) {
   var use = Koa && Koa.prototype && Koa.prototype.use
 
