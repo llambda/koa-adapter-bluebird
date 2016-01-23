@@ -5,12 +5,12 @@
 
 Never have to worry about Koa's middleware compatibility.
 
-Koa-adapter enables you to use 1.0 middlewares in [Koa] 2.0+.
+koa-adapter-bluebird enables you to use 1.0 middlewares in [Koa] 2.0+.
 
 # Installation
 
 ```
-$ npm install koa-adapter
+$ npm install koa-adapter-bluebird
 ```
 
 # Example
@@ -78,7 +78,7 @@ app.use((ctx, next) => {
 Copyright (c) 2015 Jingwei "John" Liu
 
 Licensed under the MIT license.
-  
+
 [Koa]: https://github.com/koajs/koa
 [npm-image]: https://img.shields.io/npm/v/koa-adapter.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/koa-adapter

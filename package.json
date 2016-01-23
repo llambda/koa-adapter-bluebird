@@ -1,19 +1,18 @@
 {
-  "name": "koa-adapter",
-  "version": "0.0.3",
+  "name": "koa-adapter-bluebird",
+  "version": "0.0.1",
   "description": "use 1.0 middlewares in koa 2.0",
   "main": "index.js",
   "scripts": {
     "test": "_mocha --require should --require should-http test/index.js"
   },
-  "homepage": "https://github.com/th507/koa-adapter",
+  "homepage": "https://github.com/llambda/koa-adapter-bluebird",
   "author": {
-    "name": "Jingwei Liu",
-    "email": "liujingwei@gmail.com"
+    "name": "Grant Miner",
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/th507/koa-adapter.git"
+    "url": "git://github.com/llambda/koa-adapter-bluebird.git"
   },
   "keywords": [
     "koa",
@@ -23,8 +22,7 @@
     "adapter"
   ],
   "bugs": {
-    "url": "http://github.com/th507/koa-adapter/issues",
-    "email": "liujingwei@gmail.com"
+    "url": "http://github.com/llambda/koa-adapter-bluebird/issues",
   },
   "license": "MIT",
   "dependencies": {
